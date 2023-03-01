@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+  <style>
+    body{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: sans-serif;
+    }
+    .container{
+      margin: 0;
+      padding: 20px;
+      background-color: #ccc;
+    }
+    h1{
+      margin: 0;
+      font-size: 40px;
+      position: relative;
+      padding-bottom: 10px;
+    }
+    h1:after{
+      content: '';
+      position: absolute;
+      width: 100px;
+      height: 4px;
+      bottom: 0;
+      left: 0;
+      background-color: #44a6d9;
+    }
+    h3{
+      font-size: 25px;
+      margin-bottom: 30px;
+    }
+    p{
+      color: #8a8383;
+      margin: 30px 0;
+    }
+    .content-container{
+      display: flex;
+      gap: 5%;
+    }
+    .content-container .content-left{
+      width: 40%;
+      height: 450px;
+      background-color: #44a6d9;
+      border-radius: 3px;
+    }
+    .content-container .content-right{
+      width: 60%;
+    }
+    .content-container .content-right ul{
+      display: flex;
+      justify-content: space-evenly;
+      list-style: none;
+      padding: 0;
+    }
+    .content-container .content-right ul ul{
+      display: flex;
+      flex-direction: column;
+      width: 40%;
+    }
+    .content-container .content-right ul li{
+      margin-bottom: 20px;
+      color: #8a8383;
+    }
+    .content-container .content-right ul li i{
+      margin-right: 10px;
+      color: #44a6d9;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <section class="content-container">
+    <div class="content-left">
+    </div>
+    <div class="content-right">
+      <h1>ABOUT US</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam asperiores aspernatur, cupiditate earum exercitationem expedita facere illum laudantium maxime nostrum placeat totam voluptas voluptatem. Ad illum in maxime molestias quibusdam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aspernatur beatae blanditiis cum deserunt, dolor dolores eum ex magnam optio pariatur quidem, quis recusandae repellat sapiente, sunt ut veniam voluptatem! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid dolorum ipsa repellendus reprehenderit, voluptatem voluptatum. Ad aspernatur, autem corporis cupiditate dicta est et facere, ipsam possimus provident, quae saepe suscipit?</p>
+      <h3>Why Choose Us?</h3>
+      <ul>
+        <ul>
+          <li><i class="fa fa-check"></i>Lorem ipsum dolor</li>
+          <li><i class="fa fa-check"></i>Tempor incididunt</li>
+          <li><i class="fa fa-check"></i>Lorem ipsum dolor</li>
+          <li><i class="fa fa-check"></i>Tempor incididunt</li>
+        </ul>
+        <ul>
+          <li><i class="fa fa-check"></i>Lorem ipsum dolor</li>
+          <li><i class="fa fa-check"></i>Tempor incididunt</li>
+          <li><i class="fa fa-check"></i>Lorem ipsum dolor</li>
+          <li><i class="fa fa-check"></i>Tempor incididunt</li>
+        </ul>
+      </ul>
+    </div>
+  </section>
+</div>
+</body>
+</html>
